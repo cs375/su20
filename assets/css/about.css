@@ -1,0 +1,39 @@
+table {
+    margin: 20px 0;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    min-width: 100px;
+}
+#grading-bins td {
+    min-width: 0px;
+}
+#grade-breakdown > tbody > tr:nth-child(2n+1) {
+    background-color: #EEE;
+}
+#grade-breakdown > tbody > tr:nth-child(5) {
+    background-color: #BBB;
+}
+#letter-grades td {
+    min-width: 0px;
+}
+.text {
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 28px;
+}
+.segmenttitle {
+    max-width: 800px;
+    margin: 0 auto 10px;
+}
+.redtext {
+    color: red;
+}

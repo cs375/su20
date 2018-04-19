@@ -1,0 +1,80 @@
+body {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: rgba(51, 153, 255, 1.0);
+}
+a:hover {
+    color: rgba(51, 153, 255, .75);
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: rgba(51, 153, 255, 1.0);
+    line-height: 20px;
+}
+#navbar a {
+    color: #DDD;
+}
+#navbar a:hover {
+    color: white;
+}
+.navitem {
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 40px;
+    font-weight: 300;
+}
+.left {
+    color: white;
+}
+.left-small {
+    display: none;
+}
+@media (max-width: 850px) {
+    .left-small {
+        display: inline-block;
+    }
+    .left-large {
+        display: none;
+    }
+}
+.right {
+    float: right;
+    margin-left: 20px;
+}
+#content {
+    margin: 50px 40px 40px;
+}
+.segment {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.segment ~ .segment {
+    border-top: 2px solid rgba(51, 153, 255, 1.0);
+}
+.segmenttitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.code {
+    margin: 0 30px;
+    background-color: #EEE;
+    padding: 5px 15px 10px;
+    border-radius: 2px;
+}
+.codeindent {
+    margin-left: 30px;
+}

@@ -1,0 +1,14 @@
+.segment {
+    width: 80%;
+    margin: 0 auto;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.special {
+    color: #29b336;
+}
+.special:hover {
+    color: rgba(41, 179, 54, 0.65);
+}
