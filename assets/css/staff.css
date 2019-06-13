@@ -1,30 +1,31 @@
 table {
     margin: 20px auto;
     table-layout: fixed;
+    border-spacing: 5px;
 }
 td {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     font-weight: 300;
-    vertical-align: top;
+    vertical-align: left;
 }
 .instructor {
-    max-width: 800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .instructor td:nth-child(1) {
-    width: 300px;
+    width: 100px;
 }
 .instructor td:nth-child(2) {
     padding-left: 30px;
     vertical-align: middle;
 }
 .staff {
-    max-width: 900px;
+    max-width: 800px;
 }
 .staff, .staff tr, .staff td {
-    border: 1px solid #DDD;
-    border-collapse: collapse;
+/*    border: 1px solid #DDD;
+*/    border-collapse: collapse;
 }
 .staff td {
     width: 33%;
@@ -37,7 +38,7 @@ td {
     margin: 0;
     padding: 0 10px 10px;
 }
-.instructor td > .text:nth-child(2) {
+/*.instructor td > .text:nth-child(2) {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -47,6 +48,9 @@ td {
     font-weight: 300;
     font-size: 15px;
 }
+*/
+
+/*
 .staff td > .text:nth-child(3) {
     font-weight: 500;
     font-size: 14px;
@@ -56,10 +60,12 @@ td {
 .staff td > .text:nth-child(2) {
     font-weight: 300;
     font-size: 15px;
-}
+}*/
+
+
 .photo {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     margin: 0 auto;
 }
 @media (max-width: 850px) {
@@ -71,12 +77,16 @@ td {
     }
 }
 .instructor .photo {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 .photo img {
     height: 100%;
 }
 .photo2 {
     display: none;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
